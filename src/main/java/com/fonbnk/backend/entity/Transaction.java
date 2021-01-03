@@ -25,7 +25,7 @@ public class Transaction {
     private String senderNumber;
 
     @Column(name = "amount")
-    private int amount;
+    private String amount;
 
     @Column(name = "recipient_number")
     private String recipientNumber;
